@@ -106,7 +106,7 @@ const SanPhamController = {
       return response.error(res, err);
     }
   },
-};
+
   checkStockAvailability: async (req, res) => {
     try {
       const { maCTSP } = req.body;
